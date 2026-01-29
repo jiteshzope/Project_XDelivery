@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 29
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\JiteshLap\\Desktop\\Project_xoraano_rzpay_pg\\XKeyStore\\XkeyStore.jks')
+            storePassword 'jitupaa@123'
+            keyAlias = 'xkey'
+            keyPassword 'jitupoo@123'
+        }
+    }
+    defaultConfig {
+        applicationId "com.xoraano.deliveryboy"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.browser:browser:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'com.google.firebase:firebase-core:17.3.0'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation 'com.firebaseui:firebase-ui-auth:3.1.0'
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+
+    implementation 'com.google.firebase:firebase-messaging:20.1.5'
+
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+
+    //implementation 'com.github.ganfra:material-spinner:1.1.1'
+    implementation 'com.jaredrummler:material-spinner:1.3.1'
+    implementation 'com.github.mancj:MaterialSearchBar:0.7.1'
+
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="5"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_item_name_list_order_items_order_detailspage_via_call"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_weight="3.6"
+        android:text="Mutton masala"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_item_quantity_list_order_items_order_detailspage_via_call"
+        android:layout_weight="0.7"
+        android:text="1"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:id="@+id/txt_item_amount_list_order_items_order_detailspage_via_call"
+        android:layout_weight="0.7"
+        android:text="169"
+        />
+
+</LinearLayout>

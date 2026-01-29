@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "936267533710",
+    "firebase_url": "https://xoraano-cloud-kitchen.firebaseio.com",
+    "project_id": "xoraano-cloud-kitchen",
+    "storage_bucket": "xoraano-cloud-kitchen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936267533710:android:aa1bbbfa3d4f61cd64a8df",
+        "android_client_info": {
+          "package_name": "com.xoraano.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_Kduii5UKzDqt7XLrIyn021ww0RHjjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936267533710:android:88a7715f9efc098a64a8df",
+        "android_client_info": {
+          "package_name": "com.xoraano.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_Kduii5UKzDqt7XLrIyn021ww0RHjjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936267533710:android:d4afb9631c4b91e964a8df",
+        "android_client_info": {
+          "package_name": "com.xoraano.deliveryboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_Kduii5UKzDqt7XLrIyn021ww0RHjjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936267533710:android:acb4c0c7ae9f568a64a8df",
+        "android_client_info": {
+          "package_name": "com.xoraano.manage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp_Kduii5UKzDqt7XLrIyn021ww0RHjjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936267533710-6bptpd1puohd3b0vq0inf4ts8lpjmdlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
